@@ -57,7 +57,7 @@ security:
 
 To use Okta, you'll need to change a few things. First, you'll need to create a free developer account at <https://developer.okta.com/signup/>. After doing so, you'll get your own Okta domain, that has a name like `https://dev-123456.oktapreview.com`.
 
-Modify `src/main/resources/application.yml` to use your Okta settings.
+Modify `src/main/resources/config/application.yml` to use your Okta settings.
 
 ```yaml
 security:
